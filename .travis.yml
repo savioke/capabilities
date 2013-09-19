@@ -22,4 +22,7 @@ notifications:
   email: false
 after_success:
   - cd ..
+  - mv .coverage .coverage.1
+  - mv ~/.ros/.coverage ./.coverage.2
+  - coverage combine
   - coveralls

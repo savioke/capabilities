@@ -2,6 +2,20 @@
 Changelog for package capabilities
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Remove faulty start_capability test
+* Start capability returns an error code
+* Update discovery unit test
+* Fix typos in start_capabilities server
+* Add test for restarting capabilities
+* Export architecture_independent flag in package.xml
+* Return an error if requested capability is running
+* additional race condition fixes in tests
+* try to prevent race condition in tests
+* debugging travis only failure
+* Contributors: Jon Binney, Scott K Logan, William Woodall
+
 0.2.0 (2014-06-27)
 ------------------
 * downgrade one of the exceptions to a warning

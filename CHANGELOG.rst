@@ -2,8 +2,8 @@
 Changelog for package capabilities
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.1 (2014-12-08)
+------------------
 * Remove faulty start_capability test
 * Start capability returns an error code
 * Update discovery unit test
